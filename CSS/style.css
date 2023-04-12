@@ -94,6 +94,10 @@ p {
   font-size: 12px;
 }
 
+.fss-20{
+  font-size: 20px;
+}
+
 .comentario {
   display: grid;
   grid-template-columns: 1fr 3fr !important;
@@ -120,6 +124,9 @@ p {
   cursor: pointer;
 }
 /*FIN CSS LOGIN*/
+
+
+
 
 /* CSS para las cards*/
 .card {
@@ -167,3 +174,4 @@ footer {
   color: #fff !important;
 }
 /*FIN CSS NAV FOOTER*/
+
