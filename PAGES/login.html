@@ -18,15 +18,22 @@
       href="https://trello.com/1/cards/6422315eaf7b5a208912f311/attachments/642487748ee8ea90ff8b14f1/download/image.png"
     />
 
-
     <title>BlogEnlgish</title>
   </head>
 
   <body>
     <div class="container min-vh-100 d-flex flex-column">
       <div class="py-4 container d-flex">
-        <img src="../CSS/logo.png" width="40" height="40" alt="" />
-        <p class="text-light p-2">The English Corner</p>
+        <img
+          src="https://trello.com/1/cards/6422315eaf7b5a208912f311/attachments/642487748ee8ea90ff8b14f1/download/image.png"
+          alt=""
+          width="30"
+          height="27"
+          class="d-inline-block align-text-top m-2 me-0"
+        />
+        <a href="../index.html" class="text-decoration-none">
+          <div class="text-light p-2 h4">The English Corner</div>
+        </a>
       </div>
 
       <div class="container d-flex">
@@ -45,8 +52,12 @@
           <div class="my-1 p-2">
             <h1 class="text-light">Sing in</h1>
             <p class="text-light">
-              If you already have an account register, you can
-              <span class="font-weight text-darkorange">Login here</span>
+              If you don't have an account register, you can
+              <a href="./singUp.html" class="text-decoration-none"
+                ><span class="font-weight text-darkorange"
+                  >Register here</span
+                ></a
+              >
             </p>
           </div>
           <form class="px-4 py-3">
@@ -92,12 +103,14 @@
               </div>
             </div>
             <div class="pb-3">
-              <a href="./error404.html"><button
-                type="button"
-                class="container-fluid btn btn-primary bg-secondary text-dark font-weight"
+              <a href="./error404.html"
+                ><button
+                  type="button"
+                  class="container-fluid btn btn-primary bg-secondary text-dark font-weight"
+                >
+                  Login
+                </button></a
               >
-                Login
-              </button></a>
             </div>
             <div class="dropdown-divider border border-white"></div>
             <a
@@ -106,7 +119,10 @@
               >New around here? Sign up</a
             >
 
-            <a class="dropdown-item text-darkorange font-weight" href="./error404.html">
+            <a
+              class="dropdown-item text-darkorange font-weight"
+              href="./error404.html"
+            >
               Forgot password?
             </a>
           </form>
