@@ -9,10 +9,7 @@ body {
   background-color: #000235;
 }
 
-/*Google Fonts
-font-family: "Advent Pro", sans-serif !important;
-font-family: "Ubuntu", sans-serif
-*/
+
 h1,
 h2,
 h3,
@@ -30,8 +27,7 @@ p {
   font-weight: 700 !important;
 }
 
-/* Coolors Palette Widget */
-/*Background color*/
+
 
 .bg-primary {
   background-color: #000235 !important;
@@ -52,7 +48,7 @@ p {
   background-color: #f2f2f2 !important;
 }
 
-/*color de texto*/
+
 .text-primary {
   color: #000235 !important;
 }
@@ -72,7 +68,7 @@ p {
   color: #fff !important;
 }
 
-/*CSS BLOG*/
+
 .body2 {
   background-color: #c9c7ff;
 }
@@ -117,15 +113,11 @@ p {
   max-width: 40%;
 }
 
-/*FIN CSS BLOG*/
 
-/*CSS LOGIN*/
 .pointer {
   cursor: pointer;
 }
-/*FIN CSS LOGIN*/
 
-/* CSS para las cards*/
 .card {
   width: 12rem;
   height: 16rem;
@@ -164,7 +156,7 @@ p {
   height: 80vh;
 }
 
-/*CSS NAV FOOTER*/
+
 footer {
   background-color: #000235;
   color: #fff;
@@ -172,7 +164,7 @@ footer {
 .navbar-dark {
   color: #fff !important;
 }
-/*FIN CSS NAV FOOTER*/
+
 
 @media (max-width: 600px) {
   .image-carrousel-mobile {
